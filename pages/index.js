@@ -5,19 +5,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>FDBK</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">FDBK</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Find someone to review something you wrote and give you helpful feedback.
         </p>
+        <small className={styles.miniDescription}>1. Pointing out typos <br/>2. Letting you know how easy something was to understand <br/>3. What they found confusing <br/> 4. General feedback on the idea itself.</small>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
